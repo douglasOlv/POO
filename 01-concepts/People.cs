@@ -1,6 +1,6 @@
 using System;
 
-class Pessoa 
+class People
 {
     // Attributes
     public string name;

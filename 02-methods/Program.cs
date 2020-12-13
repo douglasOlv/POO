@@ -1,16 +1,15 @@
 ﻿using System;
 
-namespace _01_concepts
+namespace _02_methods
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Instantiate Object
             People obj = new People();
-            obj.name = "Douglas";
-            obj.age = 26;
-            obj.message();
+            obj.introduce();
+            obj.introduce("Douglas");
+            obj.introduce("Douglas", 26);
         }
     }
 }
